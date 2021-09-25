@@ -33,7 +33,7 @@ def move():
         square(head.x,head.y,11,'red')
         update()
         return
-    snake.append(head)
+        snake.append(head)
     
     if head==food:
         print("your score",len(snake))
@@ -47,9 +47,9 @@ def move():
      
     for body in snake:
         square(body.x, body.y, 11, 'block')
-    square(body.x, body.y, 11, 'green')
-    update()
-    outliner(move,100)
+        square(body.x, body.y, 11, 'green')
+        update()
+        outliner(move,100)
      
 setup(420,420,370,0)
 hideturtle()

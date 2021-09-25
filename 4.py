@@ -35,6 +35,7 @@ print(list[1]*list[-1])  #index number
 a=(1,2,3,4)
 b=(1,2,3,3) #tuple allow duplicate values
 print(type(a))
+print(a)
 print(b)
 
 #set

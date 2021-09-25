@@ -10,7 +10,7 @@ list1 = [1,2,3,4]
 list2 = [1,2,3,4,4] #list prints duplicate values
 print(type(list1))
 print(list1)
-print(list)
+print(list2)
 print(len(list1)) #length of list 
 
 #muttable: we can make changes and immuttabl: we cannot make changes
